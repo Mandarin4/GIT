@@ -1,0 +1,17 @@
+git status
+git add  .
+git commit -m "test1"
+git log					- Просмотр всех коммитов
+git push				- Добавить в GitHub
+git pull				- Загрузить из Github
+cat  					- Открыть файл
+git show   				- Посмотреть все изменения
+git blame file1.txt			- Посмотреть изменения в файле
+echo "add line" >> file1.txt		- Довааить строку в файл или создать новый файл
+git diff 				- Показывает текущие изменения
+ls					- Просмотр всех файлов
+git reset HEAD-1			- Откатиться на один коммит
+git checkout .				- Откатить изменения в файлах
+git stash				- Скрыть изменения в временное хранилище
+git stash pop				- Отобразить изменения из временного хранилища
+git stash clear				- Очистить временное хранилище
